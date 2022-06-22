@@ -1,12 +1,13 @@
-import './Contacto.css'
+/* eslint-disable jsx-a11y/iframe-has-title */
+import styled from 'styled-components'
 
 export default function Contacto() {
   return (
     <>
-      <div className='infoContacto'>
+      <InfoContacto>
         <h4 className='sectionTit'>Contactanos</h4>
-        <div className='datosSecre'>
-          <div className='textoSecre'>
+        <DatosSecre>
+          <TextoSecre>
             <h5>Secretaría</h5>
             <div>
               <svg
@@ -41,8 +42,7 @@ export default function Contacto() {
               {' '}
               <p>Horarios: Lunes a Viernes de 10hs a 12hs / 16hs a 20hs</p>
             </div>
-          </div>
-
+          </TextoSecre>
           <iframe
             src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2778.183861585233!2d-67.50377158455522!3d-45.867630979107815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbde454fab1088eab%3A0x984e2a0591ab8725!2sV%C3%A9lez%20S%C3%A1rsfield%201785%2C%20U9000BGO%20Comodoro%20Rivadavia%2C%20Chubut!5e0!3m2!1ses-419!2sar!4v1654091591318!5m2!1ses-419!2sar'
             width='300'
@@ -51,8 +51,38 @@ export default function Contacto() {
             loading='lazy'
             referrerpolicy='no-referrer-when-downgrade'
           ></iframe>
-        </div>
-      </div>
+        </DatosSecre>
+      </InfoContacto>
     </>
   )
 }
+
+const InfoContacto = styled.div`
+width: 100vw;
+height: calc(100vh - 140px);
+background: var(--azulCRC);
+color: var(--claro);
+padding: 50px 20px;
+border-radius: 5px;
+p{
+  display: inline;
+  margin-left: 0.5rem;
+}
+`
+const DatosSecre = styled.div`
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+padding: 5rem 0rem;
+`
+const TextoSecre = styled.div`
+margin-left: 25px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+height: 200px;
+h5{
+  margin-left:15px
+}
+`

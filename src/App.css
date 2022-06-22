@@ -25,10 +25,17 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 120px;
+  padding-top: 90px;
   height: 100%;
 }
 .btn-primary{
   background: var(--azulCRC);
   border: none;
+}
+a{
+  color: rgba(0,0,0,.55) !important;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  display: block;
+  padding: 0.5rem 0.5rem;
 }

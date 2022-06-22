@@ -1,6 +1,6 @@
 export default function ItemFixture(props) {
     const { fecha } = props
-    console.log(fecha)
+    // console.log(fecha)
     return (
       <>
         <tr>
