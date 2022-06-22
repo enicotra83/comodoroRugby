@@ -16,7 +16,6 @@ export default function Fixture() {
   return (
     <>
       <div className='fixture centrado'>
-        <h2>Torneo Preparacion Austral 2022</h2>
         <Table responsive className='tabla table-hover align-middle'>
           <thead>
             <tr className='centrado'>

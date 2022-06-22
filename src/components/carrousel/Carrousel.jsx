@@ -1,18 +1,21 @@
 import { useState } from 'react'
 import { Carousel, Button } from 'react-bootstrap'
 import styled from 'styled-components'
+import './Carrousel.css'
 import carousel1 from '../../assets/statics/fondoCanchaEscudo.png'
 import proximaFechaRugby from '../../assets/statics/proximaFechaRugby.png'
 import proximaFechaHockey from '../../assets/statics/proximaFechaHockey.png'
 import FixtureHockey from '../../containers/fixture/FixtureHockey'
 import FixtureRugby from '../../containers/fixture/FixtureRugby'
-import ModalDetalle from '../modal/Modal'
+import Modal from '../modal/Modal'
 
 export default function Carrousel() {
-  const [modalShow, setModalShow] = useState(false);
+  const [estadoModalRugby, setEstadoModalRugby] = useState(false)
+  const [estadoModalHockey, setEstadoModalHockey] = useState(false)
+
   return (
     <DivCarrousel>
-      <Carousel fade>
+      <Carousel fade pause={'hover'}>
         <Carousel.Item>
           <img className='d-block w-100' src={carousel1} alt='First slide' />
           <Carousel.Caption>
@@ -31,12 +34,25 @@ export default function Carrousel() {
             <div class='textoCarousel'>
               <h5>PROXIMA FECHA</h5>
               <p>Div con partido, fecha, hora y lugar. fondo traslucido</p>
-
-              <Button variant='primary' onClick={() => setModalShow(true)}>
+              <Button
+                variant='primary'
+                onClick={() => setEstadoModalRugby(!estadoModalRugby)}
+              >
                 Ver Fixture
               </Button>
-
-              <ModalDetalle show={modalShow} onHide={() => setModalShow(false)} />
+              <Modal
+                estado={estadoModalRugby}
+                setEstado={setEstadoModalRugby}
+                titulo='Torneo Preparacion Austral 2022'
+                mostrarHeader={true}
+                mostrarOverlay={true}
+                posicionModal={'center'}
+                padding={'0px'}
+              >
+                <Contenido>
+                  <FixtureRugby></FixtureRugby>
+                </Contenido>
+              </Modal>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -54,40 +70,25 @@ export default function Carrousel() {
                 Div con partido, fecha, hora y lugar Torneo de hockey. fondo
                 traslucido
               </p>
-              {/* <!-- Button trigger modal --> */}
-              <button
-                type='button'
-                class='btn btn-primary'
-                data-bs-toggle='modal'
-                data-bs-target='#modalHockey'
+              <Button
+                variant='primary'
+                onClick={() => setEstadoModalHockey(!estadoModalHockey)}
               >
                 Ver Fixture
-              </button>
-
-              {/* <!-- Modal --> */}
-              <div
-                class='modal fade'
-                id='modalHockey'
-                tabindex='-1'
-                aria-labelledby='modalHockeyLabel'
-                aria-hidden='true'
+              </Button>
+              <Modal
+                estado={estadoModalHockey}
+                setEstado={setEstadoModalHockey}
+                titulo='Torneo Hockey'
+                mostrarHeader={true}
+                mostrarOverlay={true}
+                posicionModal={'center'}
+                padding={'0px'}
               >
-                <div class='modal-dialog modal-xl'>
-                  <div class='modal-content'>
-                    <div class='modal-header'>
-                      <button
-                        type='button'
-                        class='btn-close'
-                        data-bs-dismiss='modal'
-                        aria-label='Close'
-                      ></button>
-                    </div>
-                    <div class='modal-body'>
-                      <FixtureHockey></FixtureHockey>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                <Contenido>
+                  <FixtureHockey></FixtureHockey>
+                </Contenido>
+              </Modal>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
@@ -97,6 +98,28 @@ export default function Carrousel() {
 }
 
 const DivCarrousel = styled.div`
-padding-top: 2.3rem;
-max-width: 60%;
+  padding-top: 2.3rem;
+  max-width: 60%;
+`
+const Contenido = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  img {
+    width: 100%;
+    vertical-align: top;
+    border-radius: 3px;
+  }
 `
