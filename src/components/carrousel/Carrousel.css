@@ -1,4 +1,45 @@
-.textoCarousel{
-position: relative;
-z-index: 6;
+.textoCarousel {
+  position: relative;
+  z-index: 6;
+}
+@media only screen and (max-width: 767px) {
+  .textoCarousel {
+    text-align: center;
+    padding: 20px 0px;
+  }
+  .textoCarousel button {
+    display: none;
+  }
+  .slide1 {
+    width: 100vw;
+    height: 50vh;
+    background: url(../../assets/statics/canchaEscudo.png) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .slide2 {
+    width: 100vw;
+    height: 50vh;
+    background: url(../../assets/statics/proximaFechaRugby.png) center center
+      no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .slide3 {
+    width: 100vw;
+    height: 50vh;
+    background: url(../../assets/statics/proximaFechaHockey.png) center center
+      no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }

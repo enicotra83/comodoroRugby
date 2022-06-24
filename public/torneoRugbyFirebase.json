@@ -1,0 +1,589 @@
+{
+  "fechasRugby": {
+    "01": {
+      "id": 1,
+      "fecha": "POSTERGADA: 9-10 de Julio",
+      "hora": "",
+      "local1": "Comodoro RC",
+      "local1Img": "comodoro.png",
+      "visitante1": "San Jorge RC",
+      "visitante1Img": "sanJorge.png",
+      "local2": "Chenque RC",
+      "local2Img": "chenque.jpeg",
+      "visitante2": "CD Portugués",
+      "visitante2Img": "portugues.png",
+      "libre": "Calafate RC",
+      "libreImg": "calafate.png",
+      "resultado1": "",
+      "resultado2": ""
+    },
+    "02": {
+      "id": 2,
+      "fecha": "30 de Abril",
+      "hora": "",
+      "local1": "Calafate RC",
+      "local1Img": "calafate.png",
+      "visitante1": "Comodoro RC",
+      "visitante1Img": "comodoro.png",
+      "local2": "San Jorge RC",
+      "local2Img": "sanJorge.png",
+      "visitante2": "Chenque RC",
+      "visitante2Img": "chenque.png",
+      "libre": "CD Portugués",
+      "libreImg": "portugues.png",
+      "resultado1": "",
+      "resultado2": ""
+    },
+    "03": {
+      "id": 3,
+      "fecha": "7 de Mayo",
+      "hora": "",
+      "local1": "Chenque RC",
+      "local1Img": "chenque.png",
+      "visitante1": "Calafate RC",
+      "visitante1Img": "calafate.png",
+      "local2": "CD Portugués",
+      "local2Img": "portugues.png",
+      "visitante2": "San Jorge RC",
+      "visitante2Img": "sanJorge.png",
+      "libre": "Comodoro RC",
+      "libreImg": "comodoro.png",
+      "resultado1": "",
+      "resultado2": ""
+    },
+    "04": {
+      "id": 4,
+      "fecha": "14 de Mayo",
+      "hora": "",
+      "local1": "Comodoro RC",
+      "local1Img": "comodoro.png",
+      "visitante1": "Chenque RC",
+      "visitante1Img": "chenque.png",
+      "local2": "Calafate RC",
+      "local2Img": "calafate.png",
+      "visitante2": "CD Portugués",
+      "visitante2Img": "portugues.png",
+      "libre": "San Jorge RC",
+      "libreImg": "sanJorge.png",
+      "resultado1": "",
+      "resultado2": ""
+    },
+    "05": {
+      "id": 5,
+      "fecha": "21-22 de Mayo",
+      "hora": "",
+      "local1": "CD Portugués",
+      "local1Img": "portugues.png",
+      "visitante1": "Comodoro RC",
+      "visitante1Img": "comodoro.png",
+      "local2": "San Jorge RC",
+      "local2Img": "sanJorge.png",
+      "visitante2": "Calafate RC",
+      "visitante2Img": "calafate.png",
+      "libre": "Chenque RC",
+      "libreImg": "chenque.png",
+      "resultado1": "",
+      "resultado2": ""
+    },
+    "06": {
+      "id": 6,
+      "fecha": "28-29 de Mayo",
+      "hora": "",
+      "local1": "San Jorge RC",
+      "local1Img": "sanJorge.png",
+      "visitante1": "Comodoro RC",
+      "visitante1Img": "comodoro.png",
+      "local2": "CD Portugués",
+      "local2Img": "portugues.png",
+      "visitante2": "Chenque RC",
+      "visitante2Img": "chenque.png",
+      "libre": "Calafate RC",
+      "libreImg": "calafate.png",
+      "resultado1": "",
+      "resultado2": ""
+    },
+    "07": {
+      "id": 7,
+      "fecha": "4-5 de Junio",
+      "hora": "",
+      "local1": "Comodoro RC",
+      "local1Img": "comodoro.png",
+      "visitante1": "Calafate Rc",
+      "visitante1Img": "calafate.png",
+      "local2": "Chenque RC",
+      "local2Img": "chenque.png",
+      "visitante2": "San Jorge RC",
+      "visitante2Img": "sanJorge.png",
+      "libre": "CD Portugués",
+      "libreImg": "portugues.png",
+      "resultado1": "",
+      "resultado2": ""
+    },
+    "08": {
+      "id": 8,
+      "fecha": "11-12 de Junio",
+      "hora": "",
+      "local1": "Calafate RC",
+      "local1Img": "calafate.png",
+      "visitante1": "Chenque RC",
+      "visitante1Img": "chenque.png",
+      "local2": "San Jorge RC",
+      "local2Img": "sanJorge.png",
+      "visitante2": "CD Portugués",
+      "visitante2Img": "portugues.png",
+      "libre": "Comodoro RC",
+      "libreImg": "comodoro.png",
+      "resultado1": "",
+      "resultado2": ""
+    },
+    "09": {
+      "id": 9,
+      "fecha": "25-26 de Junio",
+      "hora": "",
+      "local1": "Chenque RC",
+      "local1Img": "chenque.png",
+      "visitante1": "Comodoro RC",
+      "visitante1Img": "comodoro.png",
+      "local2": "CD Portugués",
+      "local2Img": "portugues.png",
+      "visitante2": "Calafate RC",
+      "visitante2Img": "calafate.png",
+      "libre": "San Jorge RC",
+      "libreImg": "sanJorge.png",
+      "resultado1": "",
+      "resultado2": ""
+    },
+    "10": {
+      "id": 10,
+      "fecha": "2-3 de Julio",
+      "hora": "",
+      "local1": "Comodoro RC",
+      "local1Img": "comodoro.png",
+      "visitante1": "CD Portugués",
+      "visitante1Img": "portugues.png",
+      "local2": "Calafate RC",
+      "local2Img": "calafate.png",
+      "visitante2": "San Jorge RC",
+      "visitante2Img": "sanJorge.png",
+      "libre": "Chenque RC",
+      "libreImg": "chenque.png",
+      "resultado1": "",
+      "resultado2": ""
+    },
+    "semi": {
+      "id": "Semifinal",
+      "fecha": "Fecha a Confirmar",
+      "hora": "",
+      "local1": "segundo",
+      "local1Img": "",
+      "visitante1": "Tercero",
+      "visitante1Img": "",
+      "resultado1": "",
+      "resultado2": ""
+    },
+    "final": {
+      "id": "Super Final",
+      "fecha": "Fecha a Confirmar",
+      "hora": "",
+      "local1": "Primero",
+      "local1Img": "",
+      "visitante1": "Ganador Semifinal",
+      "visitante1Img": "",
+      "resultado1": "",
+      "resultado2": ""
+    }
+  },
+  "fechasHockey": {
+    "01": {
+      "id": "01",
+      "fecha": "Fecha a Confirmar",
+      "hora": "",
+      "local1": "local1",
+      "local1Img": "",
+      "visitante1": "visitante1",
+      "visitante1Img": "",
+      "resultado1": "",
+      "resultado2": ""
+    }
+  },
+  "posicionesRugby": {
+    "PS": {
+      "Comodoro": {
+        "logo": "logo.png",
+        "club": "Comodoro Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Chenque": {
+        "logo": "logo.png",
+        "club": "Chenque Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Portugues": {
+        "logo": "logo.png",
+        "club": "Club Deportivo Portugués",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "SanJorge": {
+        "logo": "logo.png",
+        "club": "San Jorge Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Calafate": {
+        "logo": "logo.png",
+        "club": "Calafate Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      }
+    },
+    "Intermedia": {
+      "Comodoro": {
+        "logo": "logo.png",
+        "club": "Comodoro Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Chenque": {
+        "logo": "logo.png",
+        "club": "Chenque Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Portugues": {
+        "logo": "logo.png",
+        "club": "Club Deportivo Portugués",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "SanJorge": {
+        "logo": "logo.png",
+        "club": "San Jorge Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Calafate": {
+        "logo": "logo.png",
+        "club": "Calafate Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      }
+    },
+    "M18": {
+      "Comodoro": {
+        "logo": "logo.png",
+        "club": "Comodoro Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Chenque": {
+        "logo": "logo.png",
+        "club": "Chenque Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Portugues": {
+        "logo": "logo.png",
+        "club": "Club Deportivo Portugués",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "SanJorge": {
+        "logo": "logo.png",
+        "club": "San Jorge Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Calafate": {
+        "logo": "logo.png",
+        "club": "Calafate Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      }
+    },
+    "M16": {
+      "Comodoro": {
+        "logo": "logo.png",
+        "club": "Comodoro Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Chenque": {
+        "logo": "logo.png",
+        "club": "Chenque Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Portugues": {
+        "logo": "logo.png",
+        "club": "Club Deportivo Portugués",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "SanJorge": {
+        "logo": "logo.png",
+        "club": "San Jorge Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Calafate": {
+        "logo": "logo.png",
+        "club": "Calafate Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      }
+    }
+  },
+  "posicionesHockey": {
+    "PS": {
+      "Comodoro": {
+        "logo": "logo.png",
+        "club": "Comodoro Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Chenque": {
+        "logo": "logo.png",
+        "club": "Chenque Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Portugues": {
+        "logo": "logo.png",
+        "club": "Club Deportivo Portugués",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Nautico": {
+        "logo": "logo.png",
+        "club": "",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Calafate": {
+        "logo": "logo.png",
+        "club": "Calafate Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      }
+    },
+    "Intermedia": {
+      "Comodoro": {
+        "logo": "logo.png",
+        "club": "Comodoro Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Chenque": {
+        "logo": "logo.png",
+        "club": "Chenque Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Portugues": {
+        "logo": "logo.png",
+        "club": "Club Deportivo Portugués",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Nautico": {
+        "logo": "logo.png",
+        "club": "",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Calafate": {
+        "logo": "logo.png",
+        "club": "Calafate Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      }
+    },
+    "sub18": {
+      "Comodoro": {
+        "logo": "logo.png",
+        "club": "Comodoro Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Chenque": {
+        "logo": "logo.png",
+        "club": "Chenque Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Portugues": {
+        "logo": "logo.png",
+        "club": "Club Deportivo Portugués",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Nautico": {
+        "logo": "logo.png",
+        "club": "",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Calafate": {
+        "logo": "logo.png",
+        "club": "Calafate Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      }
+    },
+    "sub16": {
+      "Comodoro": {
+        "logo": "logo.png",
+        "club": "Comodoro Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Chenque": {
+        "logo": "logo.png",
+        "club": "Chenque Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Portugues": {
+        "logo": "logo.png",
+        "club": "Club Deportivo Portugués",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Nautico": {
+        "logo": "logo.png",
+        "club": "",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      },
+      "Calafate": {
+        "logo": "logo.png",
+        "club": "Calafate Rugby Club",
+        "Pts": "1",
+        "Pj": "1",
+        "Pg": "1",
+        "Pe": "1",
+        "Pp": "1"
+      }
+    }
+  }
+}

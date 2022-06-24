@@ -5,11 +5,11 @@ export default function Contacto() {
   return (
     <>
       <InfoContacto>
-        <h4 className='sectionTit'>Contactanos</h4>
+        <h4 className='sectionTit'>Contactanos!</h4>
         <DatosSecre>
           <TextoSecre>
             <h5>Secretaría</h5>
-            <div>
+            <div className='divTextoSecre'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 width='16'
@@ -25,7 +25,7 @@ export default function Contacto() {
               </svg>
               <p>(0297) 444-1379</p>
             </div>
-            <div>
+            <div className='divTextoSecre'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 width='16'
@@ -38,9 +38,10 @@ export default function Contacto() {
               </svg>
               <p>Velez Sarsfield 1785</p>
             </div>
-            <div>
-              {' '}
-              <p>Horarios: Lunes a Viernes de 10hs a 12hs / 16hs a 20hs</p>
+            <div className='divTextoSecre'>
+              <p>Horarios:</p>
+              <p> Lunes a Viernes de 10hs a 12hs </p>
+              <p>/ 16hs a 20hs</p>
             </div>
           </TextoSecre>
           <iframe
@@ -58,31 +59,55 @@ export default function Contacto() {
 }
 
 const InfoContacto = styled.div`
-width: 100vw;
-height: calc(100vh - 140px);
-background: var(--azulCRC);
-color: var(--claro);
-padding: 50px 20px;
-border-radius: 5px;
-p{
-  display: inline;
-  margin-left: 0.5rem;
-}
+  width: 100vw;
+  height: calc(100vh - 140px);
+  background: var(--azulCRC);
+  color: var(--claro);
+  padding: 50px 20px;
+  border-radius: 5px;
+  @media only screen and (max-width: 767px) {
+    margin-top: 30px;
+    height: fit-content;
+  }
+  p {
+    display: inline;
+    margin-left: 0.5rem;
+    @media only screen and (max-width: 767px) {
+      display: block;
+      margin: 0.5rem 0rem;
+    }
+  }
 `
 const DatosSecre = styled.div`
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
-padding: 5rem 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rem 0rem;
+  @media only screen and (max-width: 767px) {
+    padding: 0rem;
+    height: fit-content;
+    flex-direction: column;
+  }
 `
 const TextoSecre = styled.div`
-margin-left: 25px;
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-height: 200px;
-h5{
-  margin-left:15px
-}
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 200px;
+  @media only screen and (max-width: 767px) {
+    height: fit-content;
+    align-items: center;
+    margin: 2rem;
+    .divTextoSecre {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 0.75rem;
+    }
+  }
+  h5 {
+    margin-left: 15px;
+  }
 `

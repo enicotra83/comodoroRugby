@@ -13,7 +13,7 @@ const Modal1 = ({
   return (
     <>
       {estado && (
-        <Overlay mostrarOverlay={mostrarOverlay} posicionModal={posicionModal}>
+        <Overlay mostrarOverlay={mostrarOverlay} posicionModal={posicionModal} onClick={() => setEstado(false)}>
           <ContenedorModal padding={padding}>
             {mostrarHeader && (
               <EncabezadoModal>
