@@ -11,3 +11,9 @@ creo componentes Slide1, Slide2 y Slide3 para atomizar componente Carrousel. en 
 empiezo a crear version mobile de home.
 creo version mobile de Contacto.
 Soluciono error en hover de botones de tabla de posiciones.
+24/06/22
+agrego links a url externas en Footer
+creo componentes HoraRugby y HoraHockey para insertar en el modal del Carrousel
+modifico texto de bienvenida y texto de slides en Carrousel
+agrego fondo con opacidad a div del carrousel
+
