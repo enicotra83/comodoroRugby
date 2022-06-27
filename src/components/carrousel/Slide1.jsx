@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export default function Slide1() {
   return (
-    <Slide1Contenido>
+    <div className='slide1'>
       <Slide1Texto>
         <h3>
           <strong>Bienvenidos!</strong>
@@ -15,21 +15,10 @@ export default function Slide1() {
           la vida de nuestro querido club
         </p>
       </Slide1Texto>
-    </Slide1Contenido>
+    </div>
   )
 }
 
-const Slide1Contenido = styled.div`
-  width: 100%;
-  height: 50vh;
-  background: url(../../assets/statics/canchaEscudo.png) center center no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  margin-bottom: 1rem;
-`
 const Slide1Texto = styled.div`
   width: 85%;
   background: rgba(255, 255, 255, 0.3);
@@ -40,4 +29,18 @@ const Slide1Texto = styled.div`
     color: var(--azulCRC);
     opacity: 1;
   }
+  @media only screen and (max-width: 767px) {
+    width:100%;
+    height: 100%;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+    h3, p {
+      text-align: center;
+    }
+    h3{
+      font-size: 2rem;
+    }
 `

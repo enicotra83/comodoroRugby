@@ -16,4 +16,6 @@ agrego links a url externas en Footer
 creo componentes HoraRugby y HoraHockey para insertar en el modal del Carrousel
 modifico texto de bienvenida y texto de slides en Carrousel
 agrego fondo con opacidad a div del carrousel
+27/06
+se elimina styled components en slides porque en version mobile eliminaba fondo.
 

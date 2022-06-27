@@ -11,7 +11,7 @@ export default function Slide2() {
   const [estadoModalRugby, setEstadoModalRugby] = useState(false)
 
   return (
-    <Slide2Texto>
+    <div className='slide2'>
       <div class='textoCarousel'>
         <h3> Sábado 25 de Junio</h3>
         <div className='proxPartido'>
@@ -42,7 +42,7 @@ export default function Slide2() {
           </Contenido>
         </Modal>
       </div>
-    </Slide2Texto>
+    </div>
   )
 }
 const Contenido = styled.div`
@@ -68,17 +68,6 @@ const Contenido = styled.div`
   }
 `
 const Slide2Texto = styled.div`
-  width: 85%;
-  height: fit-content;
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 10px;
-  padding: 20px;
-  h3,
-  p {
-    font-weight: 700;
-    color: var(--azulCRC);
-    opacity: 1;
-  }
   .proxPartido {
     display: flex;
     justify-content: center;
@@ -91,4 +80,8 @@ const Slide2Texto = styled.div`
   .logoChenque {
     padding: 4px;
   }
+  @media only screen and (max-width: 767px) {
+    background: url(../../assets/statics/canchaEscudo.png);
+  }
+
 `
