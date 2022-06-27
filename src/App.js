@@ -4,7 +4,7 @@ import './App.css'
 import Layout from './components/Layout'
 import Home from './containers/home/Home'
 import Historia from './containers/historia/Historia'
-import Torneos from './components/torneos/Torneos'
+import Torneos from './containers/torneos/Torneos'
 import Contacto from './components/contacto/Contacto'
 import Horarios from './components/horarios/Horarios'
 

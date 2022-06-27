@@ -1,0 +1,21 @@
+DIARIO DE PROGRESO PAGINA COMODORO RUGBY CLUB
+** nota importante: al iniciar este registro el dia 23/06, no recuerdo el orden especifico de lo realizado antes.
+al 22/06:
+Creados y funcionales componentes: Carrousel, Contacto, Footer, Header, Horarios, ItemFixture, Layout, Home.
+En proceso componentes: FixtureHockey, FixtureRugby, Torneos, itemTorneo
+Creados y vacios componentes: Historia.
+Pagina subida a firebase, con dominio: comodoro-rugby.web.app SIN VERSION MOBILE.
+23/06/22
+modifico overlay de modal para que se cierre al hacer click
+creo componentes Slide1, Slide2 y Slide3 para atomizar componente Carrousel. en version Mobile, se veran los componentes uno debajo del otro, sin el modal de fixture.
+empiezo a crear version mobile de home.
+creo version mobile de Contacto.
+Soluciono error en hover de botones de tabla de posiciones.
+24/06/22
+agrego links a url externas en Footer
+creo componentes HoraRugby y HoraHockey para insertar en el modal del Carrousel
+modifico texto de bienvenida y texto de slides en Carrousel
+agrego fondo con opacidad a div del carrousel
+27/06
+se elimina styled components en slides porque en version mobile eliminaba fondo.
+
