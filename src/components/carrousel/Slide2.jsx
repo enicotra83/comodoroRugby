@@ -13,7 +13,7 @@ export default function Slide2() {
   return (
     <div className='slide2'>
       <div class='textoCarousel'>
-        <h3> Sábado 25 de Junio</h3>
+        <h4> SABADO 25 DE JUNIO</h4>
         <div className='proxPartido'>
           <img
             className='logoProxPartido logoChenque'

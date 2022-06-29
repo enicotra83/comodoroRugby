@@ -1,23 +1,38 @@
+.carousel-caption {
+  display: flex;
+  align-content: flex-end;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
 .textoCarousel {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
   position: relative;
   z-index: 6;
+}
+.btn{
+  width: fit-content;
+  align-self: center;
 }
 .proxPartido {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 1.5rem 0px;
 }
-.slide1{
+.slide1 {
   width: 100%;
   height: 50vh;
-  background: url(../../assets/statics/canchaEscudo.png) center center no-repeat;
-  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
   margin-bottom: 1rem;
-
 }
 .logoProxPartido {
   height: 6rem;
@@ -27,15 +42,14 @@
   padding: 4px;
 }
 .slide2 {
-  height: fit-content;
-  background: rgba(255, 255, 255, 0.3);
+  height: 100%;
   border-radius: 10px;
   padding: 20px;
 }
-.slide2 h3,
-.slide2 p {
+.textoCarousel h4,
+.textoCarousel p {
   font-weight: 700;
-  color: var(--azulCRC);
+  color: var(--claro);
   opacity: 1;
 }
 
@@ -43,15 +57,21 @@
   .textoCarousel {
     text-align: center;
     padding: 20px 0px;
-    margin-top: 30px;
+    margin-top: 3rem;
+  }
+  .proxPartido {
+    margin: 0.5rem 0px;
+
   }
   .textoCarousel button {
     margin-top: 20px;
   }
-  .slide1{
-  justify-content: center;
-  margin-bottom: 0px;
-
+  .slide1 {
+    background: url(../../assets/statics/canchaEscudo.png) center center
+      no-repeat;
+    background-size: cover;
+    justify-content: center;
+    margin-bottom: 0px;
   }
   .slide2 {
     width: 100vw;
@@ -66,10 +86,10 @@
     justify-content: center;
   }
 
-  .slide2 h3,
-  .slide2 p {
+  .textoCarousel h4,
+  .textoCarousel p {
     font-weight: 700;
-    color: var(--amarilloCRC);
+    color: var(--claro);
     opacity: 1;
   }
 
@@ -84,11 +104,4 @@
     align-items: center;
     justify-content: center;
   }
-  .slide3 h3,
-  .slide3 p {
-    font-weight: 700;
-    color: var(--amarilloCRC);
-    opacity: 1;
-  }
-
 }
