@@ -4,22 +4,28 @@ import styled from 'styled-components'
 import './Carrousel.css'
 import FixtureHockey from '../../containers/fixture/FixtureHockey'
 import Modal from '../modal/Modal'
+import logoCRC from '../../assets/statics/comodoro.png'
+import logoChenque from '../../assets/statics/chenque.png'
 
 export default function Slide3() {
   const [estadoModalHockey, setEstadoModalHockey] = useState(false)
   return (
     <div className='slide3'>
       <div class='textoCarousel'>
-        <h5>PROXIMA FECHA</h5>
-        <p>
-          Div con partido, fecha, hora y lugar Torneo de hockey. fondo
-          traslucido
-        </p>
+      <h4> SABADO 25 DE JUNIO</h4>
+        <div className='proxPartido'>
+          <img
+            className='logoProxPartido logoChenque'
+            src={logoChenque}
+            alt=''
+          />
+          <p>VS</p> <img className='logoProxPartido' src={logoCRC} alt='' />
+        </div>
         <Button
           variant='primary'
           onClick={() => setEstadoModalHockey(!estadoModalHockey)}
         >
-          Ver Fixture
+          Ver Horarios
         </Button>
         <Modal
           estado={estadoModalHockey}
