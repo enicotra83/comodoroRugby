@@ -1,7 +1,9 @@
-import React from 'react'
+import HorariosRugby from './HorariosRugby'
 
 export default function Horarios() {
   return (
-    <div>Horarios</div>
+    <>
+      <HorariosRugby></HorariosRugby>
+    </>
   )
 }
