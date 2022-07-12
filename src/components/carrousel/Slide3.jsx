@@ -2,10 +2,10 @@ import { useState } from 'react'
 import { Button } from 'react-bootstrap'
 import styled from 'styled-components'
 import './Carrousel.css'
-import FixtureHockey from '../../containers/fixture/FixtureHockey'
+import HoraHockey from '../horaPartidos/HoraHockey'
 import Modal from '../modal/Modal'
-import logoCRC from '../../assets/statics/comodoro.png'
-import logoChenque from '../../assets/statics/chenque.png'
+import logoVisitante from '../../assets/statics/comodoro.png'
+import logoLocal from '../../assets/statics/chenque.png'
 
 export default function Slide3() {
   const [estadoModalHockey, setEstadoModalHockey] = useState(false)
@@ -15,11 +15,11 @@ export default function Slide3() {
       <h4> SABADO 25 DE JUNIO</h4>
         <div className='proxPartido'>
           <img
-            className='logoProxPartido logoChenque'
-            src={logoChenque}
+            className='logoProxPartido logoLocal'
+            src={logoLocal}
             alt=''
           />
-          <p>VS</p> <img className='logoProxPartido' src={logoCRC} alt='' />
+          <p>VS</p> <img className='logoProxPartido' src={logoVisitante} alt='' />
         </div>
         <Button
           variant='primary'
@@ -37,8 +37,7 @@ export default function Slide3() {
           padding={'0px'}
         >
           <Contenido>
-            <FixtureHockey></FixtureHockey>
-          </Contenido>
+<HoraHockey></HoraHockey>          </Contenido>
         </Modal>
       </div>
     </div>

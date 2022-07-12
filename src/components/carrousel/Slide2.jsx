@@ -4,8 +4,8 @@ import styled from 'styled-components'
 import './Carrousel.css'
 import HoraRugby from '../horaPartidos/HoraRugby'
 import Modal from '../modal/Modal'
-import logoCRC from '../../assets/statics/comodoro.png'
-import logoChenque from '../../assets/statics/chenque.png'
+import logoVisitante from '../../assets/statics/comodoro.png'
+import logoLocal from '../../assets/statics/chenque.png'
 
 export default function Slide2() {
   const [estadoModalRugby, setEstadoModalRugby] = useState(false)
@@ -17,10 +17,10 @@ export default function Slide2() {
         <div className='proxPartido'>
           <img
             className='logoProxPartido logoChenque'
-            src={logoChenque}
+            src={logoLocal}
             alt=''
           />
-          <p>VS</p> <img className='logoProxPartido' src={logoCRC} alt='' />
+          <p>VS</p> <img className='logoProxPartido' src={logoVisitante} alt='' />
         </div>
         <Button
           variant='primary'
